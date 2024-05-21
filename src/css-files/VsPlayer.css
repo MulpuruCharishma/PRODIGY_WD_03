@@ -1,0 +1,20 @@
+.vs-player-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .vs-player-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .vs-player-board {
+    margin-top: 20px;
+  }
+  
+  .vs-player-status {
+    margin-top: 20px;
+    font-size: 18px;
+  }
+  

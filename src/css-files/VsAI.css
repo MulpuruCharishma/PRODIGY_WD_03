@@ -1,0 +1,16 @@
+/* VsAI.css */
+/* Adjust board and square size */
+.game-board {
+  display: grid;
+  grid-template-columns: repeat(4, 150px); /* Increase the size of the squares */
+  grid-template-rows: repeat(3, 150px); /* Increase the size of the squares */
+  gap: 100px; /* Add gap between squares */
+  background-color: #ddd;
+  padding: 20px;
+  margin: 0 auto; /* Center the board horizontally */
+}
+
+/* Remove move history */
+.game-info {
+  display: none;
+}
