@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import '../css-files/VsAI.css';
 
 function Square({ value, onClick }) {
   return (
@@ -10,7 +11,7 @@ function Square({ value, onClick }) {
 
 function Board({ squares, onClick }) {
   const renderSquare = (i) => {
-    return <Square value={squares[i]} onClick={() => onClick(i)} />;
+    return <Square value={squares[i]} onClick={() => onClick(i)} key={i} />;
   };
 
   return (
